@@ -1,0 +1,182 @@
+@media (max-width: 69em) {
+  .grid {
+    gap: 3.6rem;
+  }
+
+  .heading-primary {
+    font-size: 7.2rem;
+  }
+
+  .heading-primary span {
+    display: block;
+  }
+}
+
+@media (max-width: 53.8em) {
+  .navbar {
+    gap: 2.4rem;   
+  }
+
+  .nav-list {
+    gap: 3.6rem;
+  }
+
+  .btn-group {
+    gap: 1.6rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+  }
+
+  .img-box {
+    grid-row: 1;
+  }
+
+  .text-box {
+    text-align: center;
+  }
+
+  .featured-in {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 49.56em) {
+  .header {
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    width: 12.8rem;
+  }
+
+  .heading-primary {
+    font-size: 6.4rem;
+  }
+
+  .heading-primary span {
+    display: inline;
+  }
+
+  .description {
+    font-size: 2.4rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    background-color: hsl(var(--color-white));
+    padding: 2.4rem;
+    z-index: 999;
+    width: 50%;
+    height: 100vh;
+    font-size: 2.4rem;
+  }
+
+  .nav {
+    flex-grow: 1;
+    margin-top: 6.4rem;
+    margin-left: 4.8rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .dropdown-menu {
+    margin-top: 2.4rem;
+    position: static;
+    box-shadow: none;
+    border-radius: 0;
+    gap: 4.8rem;
+  }
+
+  .dropdown-menu.features,
+  .dropdown-menu.company {
+    width: 100%;
+  }
+
+  .btn-group {
+    display: none;
+  }
+
+  .nav-open .navbar {
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-open .close-icon {
+    display: block;
+  }
+
+  .nav-open .open-icon {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 9999;
+  }
+
+  .img-hero-desktop {
+    display: none;
+  }
+
+  .img-hero-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 43.25em) {
+  .heading-primary {
+    font-size: 5.6rem;
+  }
+}
+
+@media (max-width: 37.43em) {
+  :root {
+    --font-size-base: 56.25%;
+  }
+
+  .container {
+    padding-inline: 0;
+  }
+
+  .text-box {
+    padding-inline: 2.4rem;
+  }
+}
+
+@media (max-width: 29.93em) {
+  :root {
+    --font-size-base: 50%;
+  }
+
+  .nav {
+    margin-left: 1.6rem;
+  }
+
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .text-box {
+    padding-inline: 1.2rem;
+  }
+
+  .featured-in img {
+    width: 6.4rem;
+  }
+}
