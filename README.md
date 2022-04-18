@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://section-with-dropdwon-navigation-5tl6l30zm-rendaardy.vercel.app)
 
 ## My process
 
@@ -42,9 +41,9 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@rendaardy](https://www.frontendmentor.io/profile/rendaardy)
+- Twitter - [@renda_ardy](https://www.twitter.com/renda_ardy)
